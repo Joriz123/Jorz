@@ -4,10 +4,10 @@ const password = document.getElementById("password");
 
 btn.addEventListener("click", (e) =>{
     e.preventDefault();
-    if (username.value =="server" && password.value == "server"){
+    if (username.value =="Gwapo" && password.value == "Ako"){
         alert("Successful Login");
-        window.location.href =  "/pro/index.html";
+        window.location.href =  "index.html";
     }else {
-        alert("HAHAHAHA  Tanga MAli pass  mo");
+        alert("Wrong");
     }
 })
