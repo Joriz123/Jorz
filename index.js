@@ -5,17 +5,17 @@ const btnbtnEnroll = document.getElementById('btnEnroll')
 
 btnCourse.addEventListener('click', (e)=>{
     e.preventDefault();
-    window.location.href="/conn/course/Course.html"
+    window.location.href="Course.html"
 });
 btnAbout.addEventListener('click', (e)=>{
     e.preventDefault();
-    window.location.href="/conn/about/about.html"
+    window.location.href="about.html"
 });
 btnContact.addEventListener('click', (e)=>{
     e.preventDefault();
-    window.location.href="/conn/contact/contact.html"
+    window.location.href="contact.html"
 });
 btnbtnEnroll.addEventListener('click', (e)=>{
     e.preventDefault();
-    window.location.href="/Prefinal Exam/prefinals.html"
+    window.location.href="prefinals.html"
 });
